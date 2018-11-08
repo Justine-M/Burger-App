@@ -1,6 +1,18 @@
-<h1>Burgers!</h1>
+ <head>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+ 
+ <div class="container">
+  <div class="row">
+    <div class="col-md-4">
+ <h1>Burgers!</h1>
 
-<h2>Whole Burgers!</h2>
+<img src="https://lh3.googleusercontent.com/8e9jtOnxVf7PisNxH3oaNSaQSLlRdBJZE8WgkGRzS1onG0Rvx6E2WK1xFSgMVqBIFDd6QLnh6aYX6Qemdi2ddA" alt="Burger">
+</div>
+
+<div class="col-md-4">
+ 
+<h2>Devoured Burgers</h2>
 
 <ul>
   {{#each burgers}}
@@ -9,8 +21,10 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
-<h2>Devoured burgers</h2>
+<div class="col-md-4">
+  <h2>All Burgers</h2>
 
 <ul>
   {{#each burgers}}
@@ -19,9 +33,16 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
+</div>
+</div>
 
-<h2>Add the eaten burger</h2>
+
+
+
 <form class="create-form">
+
+  <h2>Add Burger</h2>
 
     {{!-- <div class="form-group">
     <br>
@@ -33,7 +54,9 @@
     <label for="bu">Burger Name:</label>
     <input type="text" id="bu" name="name">
   </div>
+  <br><br>
   <button type="submit">Add Burger</button>
+  <br><br>
   <label for="slee">Enter a burger you would like to eat then add the burger</label>
 
 

@@ -1,19 +1,29 @@
-li {
-    padding: 5px;
+/* 
+  
+
+#devoured-it {
+    padding-left: 5px;
     margin: 5px;
     background: #faebd7;
+  
   }
+
+  #whole {
+    padding-right: 5px;
+  } */
   
   .label {
     font-weight: bold;
   }
   
-  .create-update-form {
+  /* .create-update-form {
     padding: 5px;
     margin: 5px;
     background: aqua;
-  }
+    float: middle;
+  } */
   
-  .form-group {
+  form {
     margin-bottom: 5px;
+    
   }
